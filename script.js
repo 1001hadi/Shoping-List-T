@@ -30,7 +30,7 @@ function onAddItem(e) {
     isEditMode = false;
   } else {
     if (CheckDuplicateItem(newItem)) {
-      alert("The Item you want add already Exists!");
+      alert("The Item you want to add, Already Exists!");
       return;
     }
   }
